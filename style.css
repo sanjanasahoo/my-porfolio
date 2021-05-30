@@ -1,0 +1,485 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #F2F2F2;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 62px;
+}
+.main{
+    height: 300vh;
+}
+.intro{
+    width: 87%;
+    height: 16.5%;
+    /* border: 1px solid green; */
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+.intro-content{
+    display: flex;
+    flex-direction: column;
+}
+.intro-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    width: 90%;
+    align-self: flex-start;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+
+}
+.intro-container{
+    height: 87%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    border: 7%;
+    border-radius: 8px;
+}
+.my-name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+}
+.intro-text{
+    margin-top: 3%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+.img-div{
+    height: 100%;
+    width: 31%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-img{
+    width: 83%;
+}
+.img{
+    border-radius: 7%;
+    width: 72%;
+}
+.content1{
+    height: 700px;
+    display: flex;
+    
+}
+.content2{
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.progress{
+    height: 26%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.progress-header{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+}
+.progress-content{
+    display: flex;
+    justify-content: space-between;
+}
+.hobbies{
+    height: 90%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.hobbies-img{
+    width: 385px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img1-style{
+    width: 112%;
+    height: 123%;
+}
+.img2-style{
+    height: 126%;
+    width: 100%;
+}
+.col2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.blog{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.blog-header{
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.experience{
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.experience-header{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+    margin: 2%;
+}
+.comp1,.comp2{
+    display: flex;
+    
+}
+.comp-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    margin-left: 5%;
+}
+.item{
+    background-color: white;
+    border-radius: 7px;
+    margin-left: 20px;
+}
+.project-header{
+    height: 115px;
+    width: 83%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+
+}
+.button{
+    width: 85px;
+    height: 33px;
+    left: 220px;
+    top: 1706px;
+    border: 1px solid #4F4F4F;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #4F4F4F;
+    text-decoration: none;
+    padding-top: 5px;
+}
+.project-button{
+    display: flex;
+    
+}
+.filled-button{
+    background: #2F80ED;
+}
+.project-content{
+    height:500px;
+    width: 1091px;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    /* border: 1px solid green; */
+    margin-left: 20px;
+}
+.project1,.project2,.project3{
+    width: 298px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+.project-image{
+    width: 292px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-content{
+    height: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.img-footer{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.button{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hobbies-header{
+    margin-left: -325px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+
+}
+.hobbies-content{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+.comp-img{
+    width: 10%;
+    margin: 10px;
+}
+.blog-image{
+    display: flex;
+    justify-content: flex-end;
+}
+.blog-img-style{
+    width: 50%;
+    margin: 10px;
+}
+.img-hastag{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+.project-image2{
+    height: 65%;
+}
+.project-image3{
+    height: 61%;
+}
+.img-text-header{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+.img-text-content{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    margin-left: 10px;
+}
+.skill{
+    color: #4F4F4F;
+}
+.blog-title{
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E0E0E0;
+}
+.footer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    width: 100%;
+}
+@media screen and (max-width: 376px){
+    .main{
+        
+        height: 545vh;
+    }
+    .item{
+        margin-left: 0;
+    }
+    .intro{
+        height: 10%;
+        margin-left: 0;
+        flex-direction: column;
+        width: 103%;
+    }
+    .intro-container{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .img-div{
+        height: 49%;
+        width: 102%;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .profile-image{
+        width: 40%;
+    }
+    .intro-content{
+        width: 100%;
+        height: 76%;
+        align-items: center;
+        align-self: center;
+    }
+    .intro-header{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        font-size: 16px;
+    }
+    .intro-text{
+        display: none;
+    }
+    .intro-col2{
+        margin-top: 2%;
+    }
+    .content1{
+        flex-direction: column;
+        height: 45%;
+        width: 100%;
+    }
+    .col1{
+        width: 100%;
+        justify-content: space-between;
+        height: 59%;
+    }
+    .progress{
+        width: 99%;
+        align-self: center;
+    }
+    .hobbies{
+        height: 67%;
+        width: 107%;
+        justify-content: space-evenly;
+    }
+    .hobbies-header{
+        
+        margin-left: 0;
+    }
+    .img1-style{
+        height: 74%;
+        width: 50%;
+        margin-left: -4%;
+    }
+    .img2-style{
+        width: 66%;
+        height: 51%;
+    }
+    .col2{
+        width: 100%;
+        height: 51%;
+        justify-content: normal;
+    }
+    .blog{
+        width: 109%;
+        height: 74%;
+    }
+    .blog-image{
+        margin-left: 14%;
+    }
+    .blog-img-style{
+        width: 50%;
+        
+    }
+    .experience{
+        margin-top: 2%;
+        height: 41%;
+        width: 137%;
+    
+    }
+    .content2{
+        height: 40%;
+        width: 202%;
+    }
+    .project-header{
+        width: 53%;
+        height: 10%;
+        margin-top: 2%;
+    }
+    .project-content{
+        flex-direction: column;
+        width: 52%;
+        height: 163%;
+        justify-content: normal;
+        
+    }
+    .project1,.project2,.project3{
+        width: 96%;
+        height:77%
+    }
+    .project-image1{
+        width: 55%;
+    }
+    .blog-header{
+        margin: 10px;
+        padding:0px
+    }
+}
