@@ -4,14 +4,18 @@ body{
     flex-direction: column;
     background: #F2F2F2;
     height: 100%;
-    margin-left: 20px;
-    margin-right: 62px;
+    width:100%;
+    margin: 0;
 }
 .main{
     height: 300vh;
+    margin-left: 4%;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
 }
 .intro{
-    width: 87%;
+    width: 100%;
     height: 16.5%;
     /* border: 1px solid green; */
     display: flex;
@@ -37,8 +41,8 @@ body{
 
 }
 .intro-container{
-    height: 87%;
-    width: 100%;
+    height: 95%;
+    width: 92%;
     background-color: white;
     display: flex;
     border: 7%;
@@ -78,7 +82,7 @@ body{
 .content1{
     height: 700px;
     display: flex;
-    
+    width: 100%;
 }
 .content2{
     height: 550px;
@@ -93,6 +97,7 @@ body{
 }
 .progress{
     height: 26%;
+    width: 100%;
     margin-top: 2%;
     display: flex;
     flex-direction: column;
@@ -113,6 +118,7 @@ body{
 }
 .hobbies{
     height: 90%;
+    width: 100%;
     margin-top: 2%;
     margin-bottom: 2%;
     display: flex;
@@ -142,12 +148,13 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-left: 20px;
 }
 .blog{
     height: 60%;
     display: flex;
     flex-direction: column;
-    
+    width: 100%;
    
 }
 
@@ -164,6 +171,7 @@ body{
 
 .experience{
     height: 35%;
+    width:100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -195,7 +203,7 @@ body{
 }
 .project-header{
     height: 115px;
-    width: 83%;
+    width: 93%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -231,7 +239,7 @@ body{
 }
 .project-content{
     height:500px;
-    width: 1091px;
+    width: 93%;
     display: flex;
     justify-content: space-between;
 }
@@ -356,7 +364,7 @@ body{
 }
 @media screen and (max-width: 376px){
     .main{
-        
+        margin-left: 1%;
         height: 545vh;
     }
     .item{
@@ -369,7 +377,7 @@ body{
         width: 103%;
     }
     .intro-container{
-        width: 100%;
+        width: 93%;
         height: 100%;
         flex-direction: column;
     }
@@ -412,12 +420,12 @@ body{
         height: 59%;
     }
     .progress{
-        width: 99%;
+        width: 95%;
         align-self: center;
     }
     .hobbies{
         height: 67%;
-        width: 107%;
+        width: 100%;
         justify-content: space-evenly;
     }
     .hobbies-header{
@@ -437,9 +445,10 @@ body{
         width: 100%;
         height: 51%;
         justify-content: normal;
+        margin-left: 0;
     }
     .blog{
-        width: 109%;
+        /* width: 109%; */
         height: 74%;
     }
     .blog-image{
@@ -452,24 +461,27 @@ body{
     .experience{
         margin-top: 2%;
         height: 41%;
-        width: 137%;
+        /* width: 137%; */
     
     }
     .content2{
-        height: 40%;
-        width: 202%;
+        height: 50%;
+        /* width: 202%; */
+        width: 100%;
     }
     .project-header{
-        width: 53%;
+        /* width: 53%; */
         height: 10%;
         margin-top: 2%;
+        
     }
     .project-content{
         flex-direction: column;
-        width: 52%;
+        /* width: 52%; */
         height: 163%;
-        justify-content: normal;
-        
+        justify-content: center;
+        align-items: center;
+        margin: 0;
     }
     .project1,.project2,.project3{
         width: 96%;
